@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension version="1.7.0" type="plugin" method="upgrade" group="authentication">
+	<name>Offer and order</name>
+	<creationDate>14.11.2017</creationDate>
+	<version>1.0.0</version>
+	<author>MAXXmarketing</author>
+	<authorEmail>support@webdesigner-profi.de</authorEmail>
+	<authorUrl></authorUrl>
+	<copyright>MAXXmarketing GmbH</copyright>
+	<license>MAXXmarketing</license>
+	<description></description>
+	<files>
+		<filename plugin="offer_and_order">offer_and_order.php</filename>
+	</files>
+</extension>

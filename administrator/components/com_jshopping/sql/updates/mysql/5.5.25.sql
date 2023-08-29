@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'show_wishlist_button', "TINYINT(1) NULL DEFAULT '0'");

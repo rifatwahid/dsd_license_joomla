@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+    <field type="rules" name="rules" label="JCONFIG_PERMISSIONS_LABEL" description="JCONFIG_PERMISSIONS_DESC" component="com_jshopping" section="category" filter="rules" validate="rules">
+        <action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE" />
+        <action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT" />
+        <action name="core.edit.state" title="JACTION_EDITSTATE" description="JACTION_EDITSTATE" />
+        <action name="core.create" title="JACTION_CREATE" description="JACTION_CREATE" />
+    </field>
+    <field type="hidden" name="asset_id" />
+</form>

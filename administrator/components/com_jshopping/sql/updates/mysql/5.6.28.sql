@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'is_use_additional_media', 'BOOLEAN DEFAULT 0');

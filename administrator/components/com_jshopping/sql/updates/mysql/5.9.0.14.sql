@@ -1,0 +1,2 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_offer_and_order', 'm_name', 'TEXT AFTER `f_name`');
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_offer_and_order', 'd_m_name', 'TEXT AFTER `d_f_name`');

@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_unit', 'unit_number_format', 'TINYINT(1) NOT NULL DEFAULT 0');

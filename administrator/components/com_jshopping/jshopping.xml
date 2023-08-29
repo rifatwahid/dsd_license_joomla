@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="component" version="3.0.0" method="upgrade">
+	<name>jshopping</name>
+   	<creationDate>15.12.2020</creationDate>
+	<author>smartSHOP</author>
+	<authorEmail></authorEmail>
+	<authorUrl></authorUrl>
+   	<copyright></copyright>
+   	<license>Open Source License, GNU/GPL</license>
+	<version>7.1.1.3</version>
+	<description>smartSHOP - shop component.</description>
+	<namespace>Durst\Component\SmartShop</namespace>
+   	<scriptfile>install/install.php</scriptfile>
+
+	<install>
+	  	<sql>
+			<file driver="mysql" charset="utf8">install/install.sql</file>
+	  	</sql>
+   	</install>
+
+   	<uninstall>
+	  	<sql>
+			<file driver="mysql" charset="utf8">install/uninstall.sql</file>
+	  	</sql>
+   	</uninstall>	
+
+	<update>
+		<schemas>
+			<schemapath type="mysql">sql/updates/mysql</schemapath>
+		</schemas>
+   	</update>
+
+   	<files folder="site">
+		<folder>addons</folder>
+		<folder>controllers</folder>
+		<folder>images</folder>
+		<folder>js</folder>
+		<folder>layouts</folder>
+		<folder>css</folder>
+		<folder>language</folder>
+		<folder>lib</folder>
+		<folder>log</folder>
+		<folder>models</folder>
+		<folder>payments</folder>
+		<folder>Services</folder>
+		<folder>shippings</folder>
+		<folder>shippingform</folder>
+		<folder>tables</folder>
+		<folder>views</folder>
+		<folder>templates</folder>
+		<folder>files</folder>
+		<folder>helpers</folder>
+		<folder>fonts</folder>
+
+		<filename>jshopping.php</filename>
+		<filename>loadparams.php</filename>
+		<filename>router.php</filename>
+		<filename>metadata.xml</filename>
+	</files>
+
+	<languages folder="site">
+		<language tag="de-DE">language/de-DE/de-DE.com_jshopping.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.com_jshopping.ini</language>
+		<language tag="ru-RU">language/ru-RU/ru-RU.com_jshopping.ini</language>
+		<language tag="it-IT">language/it-IT/it-IT.com_jshopping.ini</language>
+		<language tag="ja-JP">language/ja-JP/ja-JP.com_jshopping.ini</language>
+	</languages>
+
+   	<administration>
+		<menu><i class="fab fa-shopify"></i>smartSHOP</menu>
+		<submenu>
+		  	<menu link="option=com_jshopping&amp;controller=categories"><i class="fas fa-store"></i>categories</menu>
+		  	<menu link="option=com_jshopping&amp;controller=products"><i class="fab fa-shopify"></i>products</menu>
+		  	<menu link="option=com_jshopping&amp;controller=orders"><i class="fas fa-receipt"></i>orders</menu>
+		  	<menu link="option=com_jshopping&amp;controller=users"><i class="fas fa-users"></i>clients</menu>
+		  	<menu link="option=com_jshopping&amp;controller=other"><i class="fas fa-sliders-h"></i>options</menu>
+		  	<menu link="option=com_jshopping&amp;controller=config"><i class="fas fa-cogs"></i>configuration</menu>
+			<menu link="option=com_jshopping&amp;controller=service&amp;task=redirectToShopDocumentation"><i class="fas fa-cogs"></i>Documentation</menu>
+		</submenu>
+
+	  	<files folder="admin">
+			<folder>controllers</folder>
+			<folder>css</folder>
+			<folder>images</folder>
+			<folder>js</folder>
+			<folder>layouts</folder>
+			<folder>lib</folder>
+			<folder>models</folder>
+			<folder>Services</folder>
+			<folder>views</folder>
+			<folder>importexport</folder>
+			<folder>install</folder>
+			<folder>sql</folder>
+
+			<filename>jshopping.php</filename>
+			<filename>functions.php</filename>
+			<filename>config.xml</filename>
+			<filename>access.xml</filename>
+	  	</files>
+
+	  	<languages folder="admin">
+			<language tag="de-DE">language/de-DE/de-DE.com_jshopping.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_jshopping.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.com_jshopping.ini</language>
+			<language tag="it-IT">language/it-IT/it-IT.com_jshopping.ini</language>
+			<language tag="ja-JP">language/ja-JP/ja-JP.com_jshopping.ini</language>
+			<language tag="de-DE">language/de-DE/de-DE.com_jshopping.sys.ini</language>
+			<language tag="en-GB">language/en-GB/en-GB.com_jshopping.sys.ini</language>
+			<language tag="ru-RU">language/ru-RU/ru-RU.com_jshopping.sys.ini</language>
+			<language tag="it-IT">language/it-IT/it-IT.com_jshopping.sys.ini</language>
+			<language tag="ja-JP">language/ja-JP/ja-JP.com_jshopping.sys.ini</language>
+		</languages>
+    </administration>
+</extension>

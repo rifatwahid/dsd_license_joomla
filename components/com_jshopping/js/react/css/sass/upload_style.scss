@@ -1,0 +1,219 @@
+.nativeProgressUpload .nativeProgressUpload__btn {
+    display: block;
+    padding: 8px 10px;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 5px;
+    color: #fff;
+    background: #1c7cd5;
+}
+
+.nativeProgressUpload .nativeProgressUpload__btn:hover {
+    text-decoration: none;
+}
+
+.nativeProgressUpload .apuf_fixed_block {
+    min-width: 300px; 
+	margin-top: 20px;	
+}
+
+.nativeProgressUpload .apuf_block {
+    background: #eceef0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.nativeProgressUpload .apuf_progress {
+    position: relative;
+    width: 100%;
+}
+
+.nativeProgressUpload .apuf_bar {
+    background-color: #1c7cd5;
+    height: 28px;
+    color: #FFFFFF;
+    width: 0;
+}
+
+.nativeProgressUpload .apuf_percent {
+    display: inline-block;
+    left: 45%;
+    position: absolute;
+    top: 6px;
+    color: #fff;
+}
+
+.nativeProgressUpload .apuf_status {
+    width: 100%;
+    word-break: break-word;
+}
+
+.nativeProgressUpload .apuf_status {
+    display: none;
+}
+
+.nativeProgressUpload .apuf_status_error {
+    display: block;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo__link {
+    display: inline-block;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo {
+    margin-top: 15px;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__wrapper,
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__imgInfo {
+    padding: 6px 6px 0 6px;
+    box-shadow: 0px 0px 13px 0px #858997;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__img {
+    max-width: 100%;
+    height: auto;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__description,
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__description {
+    color: #e8e8e8;
+    font-size: 11px;
+    padding-bottom: 4px;
+    word-break: break-all;
+    text-align: left;
+}
+
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__description {
+    margin-top: 5px;
+    font-weight: normal;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__description-link,
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__description-link {
+    color: #e8e8e8;
+}
+
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__description-link {
+    font-size: 13px;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__removeFile {
+    text-align: right;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__removeFileLink {
+    display: inline-block;
+    color: #d9566d;
+    border: 1px solid #d9566d;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__removeFileLink:hover {
+    color: #fff;
+    background: #d9566d;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__describeInput,
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__describeInput {
+    height: 45px;
+    padding: 5px 10px;
+    font-size: 18px;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, .15);
+    color: #495057;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__describeInput::-webkit-input-placeholder,
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__describeInput::-webkit-input-placeholder {
+    text-align: center;
+}
+ 
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__describeInput:-moz-placeholder,
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__describeInput::-moz-placeholder { /* Firefox 18- */
+    text-align: center;  
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__describeInput::-moz-placeholder,
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__describeInput::-moz-placeholder {  /* Firefox 19+ */
+    text-align: center;  
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__describeInput:-ms-input-placeholder,
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__describeInput::-ms-input-placeholder {  
+    text-align: center; 
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__qty,
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__qty {
+    text-align: right;
+}
+
+.nativeProgressUpload .nativeProgressUpload-imageInfo .nativeProgressUpload-imageInfo__qtyInput,
+.native-uploads-previews .native-uploads-preview .native-uploads-preview__qtyInput {
+    display: inline-block;
+    width: 107px;
+    margin-bottom: 23px;
+}
+
+.nativeMultiuploadProgressHeader {
+    margin-bottom: 15px;
+}
+
+.nativeMultiuploadProgressHeader .nativeMultiuploadProgressHeader__max {
+    color: #828e9d;
+    font-size: 18px;
+}
+
+.nativeMultiuploadProgressHeader .nativeMultiuploadProgressHeader__newUpload {
+    text-align: right;
+}
+
+.nativeMultiuploadProgressHeader .nativeMultiuploadProgressHeader__newUpload .nativeMultiuploadProgressHeader__newUploadLink {
+    display: inline-block;
+    padding: 8px 15px;
+    border: 1px solid #1c7cd5;
+    border-radius: 5px;
+}
+
+.cartUploadedeDataForNonSupportUpload .native-uploads-preview__qty input.native-uploads-preview__qtyInput {
+	display: inline-block !important;
+    background: #e9ecef !important;
+}
+
+.width--100pr {
+    width: 100%;
+}
+
+.display--none {
+    display: none;
+}
+
+.admintable__col1,
+.admintable__col2 {
+    display: inline-block;
+}
+
+.admintable__col1 {
+    min-width: 180px;
+}
+
+.admintable__row {
+    margin-bottom: 10px;
+}
+.box__file{
+	display:none;}
+
+.dropzone {
+  width: 100%;  
+  border: 2px dashed #aaa;
+  color: #aaa;
+  padding-top: 50px;
+  text-align: center;}
+
+.dropzone.dragover {
+  color: green;
+  border: 2px dashed #000;}

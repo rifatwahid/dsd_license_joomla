@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_upload', 'allow_files_size', "DOUBLE NOT NULL DEFAULT '0'");

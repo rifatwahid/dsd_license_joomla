@@ -1,0 +1,23 @@
+{
+  "name": "durst-sass-compress",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "gulp sass",
+    "watch": "gulp watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-cli": "^2.2.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-sass": "^4.0.2",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}

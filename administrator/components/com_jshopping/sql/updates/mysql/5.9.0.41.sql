@@ -1,0 +1,1 @@
+ALTER TABLE `#__jshopping_payment_method` ALTER `payment_type` SET DEFAULT '1';

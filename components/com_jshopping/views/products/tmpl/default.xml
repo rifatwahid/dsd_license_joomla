@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="CA_SMARTSHOP_PRODUCTS_LIST"></layout>
+    <fields name="request" addfieldpath="/administrator/components/com_jshopping/models/fields">
+		<fieldset name="request">		
+			
+			<field name="task" type="list" label="List" description="List">
+				<option value="all">CA_SMARTSHOP_PRODUCTS_LIST_ALL</option>
+				<option value="tophits">CA_SMARTSHOP_PRODUCTS_LIST_TOP_HITS</option>
+                <option value="toprating">CA_SMARTSHOP_PRODUCTS_LIST_TOP_RATING</option>
+                <option value="label">CA_SMARTSHOP_PRODUCTS_LIST_LABEL_PRODUCTS</option>
+                <option value="bestseller">CA_SMARTSHOP_PRODUCTS_LIST_BESTSELLER</option>
+                <option value="random">CA_SMARTSHOP_PRODUCTS_LIST_RANDOM</option>
+                <option value="last">CA_SMARTSHOP_PRODUCTS_LIST_LAST_PRODUCTS</option>
+			</field>
+			<field name="category_id" type="modal_category"
+				label="CA_SMARTSHOP_CATEGORY"
+				required="false"
+				edit="false"
+				clear="false"
+				description="CA_SMARTSHOP_CATEGORY_DESCRIPTION"
+			/>
+            <field name="manufacturer_id" type="modal_manufacturer"
+				label="CA_SMARTSHOP_MANUFACTURER"
+				required="false"
+				edit="true"
+				clear="false"
+				multiple="true"
+				description="CA_SMARTSHOP_MANUFACTURER_DESCRIPTION"
+			/>            
+			<field name="label_id" type="modal_label"
+				label="CA_SMARTSHOP_LABEL"
+				required="false"
+				edit="true"
+				clear="false"
+				multiple="true"
+				description="CA_SMARTSHOP_LABEL_DESCRIPTION"
+			/>
+            <field name="vendor_id" type="modal_vendor"
+				label="CA_SMARTSHOP_VENDOR"
+				required="false"
+				edit="true"
+				clear="false"
+				multiple="true"
+				description="CA_SMARTSHOP_VENDOR_DESCRIPTION"
+			/>
+            <field name="price_from" type="text" default="" label="CA_SMARTSHOP_PRICE_FROM" description="CA_SMARTSHOP_PRICE_FROM_DESCRIPTION" />
+            <field name="price_to" type="text" default="" label="CA_SMARTSHOP_PRICE_TO" description="CA_SMARTSHOP_PRICE_TO_DESCRIPTION" />
+			<field name="products_list" type="modal_products" edit="true" default="" multiple="true" label="CA_SMARTSHOP_PRODUCTS_LIST" description="CA_SMARTSHOP_PRODUCTS_LIST_DESCRIPTION" />
+			<field name="number_of_products" type="text" default="" label="CA_SMARTSHOP_PRODUCTS_LIST_MENU_NUMBER_OF_PRODUCTS" description="CA_SMARTSHOP_PRODUCTS_LIST_MENU_NUMBER_OF_PRODUCTS" />
+			<field type="Modal_Scripttag" url="/administrator/components/com_jshopping/js/src/scripts/joomla_menu/product_lists.js"/>
+		</fieldset>
+	</fields>
+</metadata>

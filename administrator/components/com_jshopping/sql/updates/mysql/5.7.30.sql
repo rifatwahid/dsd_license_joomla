@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_order_status', 'is_allowed_status_for_cancellation', 'BOOLEAN DEFAULT FALSE');

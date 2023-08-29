@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_images', 'image_url', 'TEXT NOT NULL');

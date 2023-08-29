@@ -1,0 +1,2 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'factory', 'varchar(255) NOT NULL');
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'storage', 'varchar(255) NOT NULL');

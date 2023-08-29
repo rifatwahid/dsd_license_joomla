@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'is_show_bulk_prices', 'BOOLEAN NOT NULL DEFAULT TRUE');

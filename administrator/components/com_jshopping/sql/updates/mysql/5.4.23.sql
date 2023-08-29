@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'one_time_cost_list', 'TEXT NOT NULL');

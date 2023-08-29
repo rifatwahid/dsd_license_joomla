@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="CA_SMARTSHOP_PRODUCT"></layout>
+    <fields name="request" addfieldpath="/administrator/components/com_jshopping/models/fields">
+		<fieldset name="request">
+            <field name="category_id" type="modal_category"
+				label="CA_SMARTSHOP_CATEGORY"
+				required="flase"
+				edit="false"
+				clear="false"
+				description="CA_SMARTSHOP_CATEGORY_DESCRIPTION"
+			/>
+			<field name="product_id" type="modal_product"
+				label="CA_SMARTSHOP_PRODUCT"
+				required="true"
+				edit="false"
+				clear="false"
+				description="CA_SMARTSHOP_PRODUCT_DESCRIPTION"
+			/>			
+			<field type="Modal_Scripttag" url="/administrator/components/com_jshopping/js/src/scripts/joomla_menu/product_lists.js"/>
+		</fieldset>
+	</fields>
+</metadata>

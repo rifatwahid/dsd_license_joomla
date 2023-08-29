@@ -1,0 +1,21 @@
+.shop-cart .angebote_erstellen {
+  display: inline-block;
+  float: right;
+  width: auto;
+}
+.card .col-8.free-attr__col1,
+.card .col-4.free-attr__col2 {
+  max-width: 100%;
+  flex: auto;
+}
+#ajax_cart_content .one_click_checkout .form-check .mr-1 {
+  width: 14px;
+}
+#ajax_cart_content .one_click_checkout .cart-items .list-group-item:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+.angebote_erstellen .input-group-append {
+  width: 100%;
+}
+

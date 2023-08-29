@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" version="1.7" method="upgrade" group="system">
+    <name>SmartShop System Plugin</name>
+	<author>SmartShop</author>
+    <creationDate>26.05.2021</creationDate>
+    <version>5.8.0</version>
+	<description>SmartShop System Plugin</description>
+    
+    <files>
+		<filename plugin="smartshop_system">smartshop_system.php</filename>
+        <filename>index.html</filename>
+    </files>
+</extension>

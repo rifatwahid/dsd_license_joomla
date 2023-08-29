@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_product_labels', 'image_ja-JP', 'VARCHAR(255) NOT NULL');

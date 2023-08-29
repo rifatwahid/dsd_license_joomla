@@ -1,0 +1,2 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_free_attr', 'unit_id', 'int(11) NOT NULL');
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_free_attr', 'show_unit', "int(1) NOT NULL DEFAULT '0'");

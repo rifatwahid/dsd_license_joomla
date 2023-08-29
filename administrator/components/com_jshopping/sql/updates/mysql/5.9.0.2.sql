@@ -1,0 +1,13 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'product_price_type', "int(11) NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'qtydiscount', "int(1) NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'product_packing_type', "INT(4) NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'factory', "VARCHAR(255) NOT NULL");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'storage', "VARCHAR(255) NOT NULL");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'product_tax_id', "tinyint(3) NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'product_manufacturer_id', "int(11) NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'delivery_times_id', "int(4) NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'label_id', "int(11) NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'quantity_select', "varchar(255) NOT NULL");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'max_count_product', "int(11) NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'min_count_product', "int(11) NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products_attr', 'basic_price_unit_id', "int(3) NOT NULL DEFAULT '0'");

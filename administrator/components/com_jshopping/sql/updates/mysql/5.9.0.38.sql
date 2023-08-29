@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_orders', 'shippings', 'varchar(100) NOT NULL');

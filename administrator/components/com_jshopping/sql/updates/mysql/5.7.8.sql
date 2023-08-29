@@ -1,0 +1,2 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'storage_delete_editor_temporary_folder', "INT NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'storage_delete_editor_print_files', "INT NOT NULL DEFAULT '0'");

@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_attr_groups', 'hide_title', 'tinyint(1) NOT NULL DEFAULT 0');

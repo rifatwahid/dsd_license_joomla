@@ -1,0 +1,2 @@
+UPDATE `#__menu` SET `link` = 'index.php?option=com_jshopping&view=content&task=view&page=agb' WHERE `link` = 'index.php?option=com_jshopping&view=content&task=view&page=terms_of_service';
+UPDATE `#__menu` SET `link` = 'index.php?option=com_jshopping&view=content&task=view&page=privacy_statement' WHERE `link` = 'index.php?option=com_jshopping&view=content&task=view&page=privacy_policy';

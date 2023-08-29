@@ -1,0 +1,1 @@
+ALTER TABLE `#__jshopping_users_addresses` ADD `is_default_bill` BOOLEAN NOT NULL DEFAULT FALSE COMMENT 'default for billing';

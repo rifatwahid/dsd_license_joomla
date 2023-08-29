@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_shipping_method_price', 'shipping_type', "TINYINT(4) NOT NULL DEFAULT '1' COMMENT '1 - price from shop\r\n2 - price from API'");

@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'display_preloader', 'tinyint(1) NOT NULL DEFAULT ''0''');

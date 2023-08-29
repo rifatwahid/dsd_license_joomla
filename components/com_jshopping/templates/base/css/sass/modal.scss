@@ -1,0 +1,45 @@
+
+.modal ul.ep-text_message,
+.modal ul.ep-text_message ul {
+  margin: 0;
+  padding: 0;
+}
+
+.modal ul.ep-text_message li {
+  display: block;
+  margin-bottom: 10px;
+}
+#sbox-btn-close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 0px !important;
+  top: 0px !important;
+  border: none;
+  border: 0;
+  opacity: 0.6;
+}
+#sbox-content #sbox-btn-close {
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  right: 0px;
+  top: 0px;
+  background: url(../images/modal/closebox.png) no-repeat center;
+  border: none;
+}
+#sbox-content #sbox-btn-close:after {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  content: "\274c"; /* use the hex value here... */
+  font-size: 50px;
+
+  line-height: 100px;
+  text-align: center;
+}
+.modal.show {
+  z-index: 10005000;
+}

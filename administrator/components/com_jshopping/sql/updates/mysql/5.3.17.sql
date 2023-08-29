@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'is_use_additional_free_attrs', 'TINYINT(1) DEFAULT 0');

@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'allow_reviews_only_buyers', "TINYINT(1) NOT NULL DEFAULT '0'");

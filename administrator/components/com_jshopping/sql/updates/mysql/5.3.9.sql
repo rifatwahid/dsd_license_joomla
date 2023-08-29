@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'show_product_manufacturer_in_cart', 'INT DEFAULT 0');

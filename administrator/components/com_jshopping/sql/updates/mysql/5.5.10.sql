@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_attr_values', 'exclude_buttons_for_attribute', 'TEXT NOT NULL AFTER `exclude_attribute_for_attribute`');
