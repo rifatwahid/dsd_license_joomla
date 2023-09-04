@@ -9,10 +9,10 @@
 define("APL_SALT", "93hC3kIijsr7674i");
 
 //The URL (without / at the end) where Auto PHP Licenser from /WEB directory is installed on your server. No matter how many applications you want to protect, a single installation is enough.
-define("APL_ROOT_URL", "http://licenser.1edition.eu");
+define("APL_ROOT_URL", "http://volksbytelicenser.loc");
 
 //Unique numeric ID of product that needs to be licensed. Can be obtained by going to Products > View Products tab in Auto PHP Licenser dashboard and selecting product to be licensed. At the end of URL, you will see something like products_edit.php?product_id=NUMBER, where NUMBER is unique product ID. Cannot be modified after installing script.
-define("APL_PRODUCT_ID", 1);
+define("APL_PRODUCT_ID", 6);
 
 //Time period (in days) between automatic license verifications. The lower the number, the more often license will be verified, but if many end users use your script, it can cause extra load on your server. Available values are between 1 and 365. Usually 7 or 14 days are the best choice.
 define("APL_DAYS", 7);
