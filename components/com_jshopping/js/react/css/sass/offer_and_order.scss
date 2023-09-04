@@ -1,0 +1,89 @@
+.angebote_erstellen{
+    text-align: right;
+    font-weight: bold;
+}
+
+.list_my_offer_and_order th{
+    font-weight: bold;
+    padding: 6px 3px;
+    background: #ccc;
+}
+.list_my_offer_and_order td{    
+    padding: 6px 3px;
+    background: #fff;
+}
+.list_my_offer_and_order td.td3{
+    width:130px;
+}
+.list_my_offer_and_order td.td4{
+    width:130px;
+}
+.list_my_offer_and_order a{
+    color:#666;
+}
+.offer_and_order_date_finished, .offer_and_order_date_finished a{
+    color: #ccc;
+}
+
+.width220px {
+    width: 220px;
+}
+
+.displayInlineBlock {
+    display: inline-block;
+}
+
+.admintable__row {
+    margin-bottom: 15px;
+}
+
+.admintable__column1 {
+    width: 220px;
+    display: inline-block;
+}
+
+.width--30px {
+    width: 30px;
+}
+
+.pswp__button--mail{background: none !important; color: #fff;}
+.pswp__button--download{
+    background: none !important; 
+    color: #fff;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+}
+.pswp__button--download:hover{color: #fff;}
+
+#email-share-dialog{
+    position: fixed;
+    z-index: 666666;
+    width: 20em;
+    height: 10em;
+    left: calc(50% - 20em/2);
+    top: calc(50% - 8em/2);
+    border: 1px solid #000;
+    background-color: #fff;
+}
+
+#email-share-dialog .email-share-dialog-title{
+    background-color: #007ACC;
+    padding: 0.2em;
+    color: #fff;
+    margin: 0.1em;
+}
+
+#email-share-dialog #email-share-dialog-email{
+    margin-bottom: 1.3em;
+    margin: 1em;
+    display: block;
+    width: 90%;
+    box-sizing: border-box;
+}
+
+#email-share-dialog #email-share-dialog-send, #email-share-dialog #email-share-dialog-cancel{
+    display: inline-block;
+    margin: 0 1.9em;
+    width: 6em;
+}

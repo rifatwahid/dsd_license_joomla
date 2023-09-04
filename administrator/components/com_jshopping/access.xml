@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<access component="com_jshopping">
+	<section name="component">
+		<action name="core.admin" title="JACTION_ADMIN" description="JACTION_ADMIN_COMPONENT_DESC" />
+		<action name="core.manage" title="JACTION_MANAGE" description="JACTION_MANAGE_COMPONENT_DESC" />
+		<action name="core.options" title="JACTION_OPTIONS" description="JACTION_OPTIONS_COMPONENT_DESC" />
+		<action name="core.create" title="JACTION_CREATE" description="JACTION_CREATE_COMPONENT_DESC" />		
+		<action name="core.edit" title="JACTION_EDIT" description="JACTION_EDIT_COMPONENT_DESC" />
+		<action name="core.copy" title="JACTION_COPY" description="JACTION_COPY_COMPONENT_DESC" />
+		<action name="core.publish" title="JACTION_PUBLISH" description="JACTION_PUBLISH_COMPONENT_DESC" />
+		<action name="core.ordering" title="JACTION_ORDERING" description="JACTION_ORDERING_COMPONENT_DESC" />
+		<action name="core.delete" title="JACTION_DELETE" description="JACTION_DELETE_COMPONENT_DESC" />		
+		
+		<action name="smartshop.smarteditor" title="JACTION_SMARTEDITOR" description="JACTION_SMARTEDITOR_COMPONENT_DESC" />		
+		
+		<action name="smartshop.categories" title="JACTION_CATEGORIES" description="JACTION_CATEGORIES_COMPONENT_DESC" />		
+		<action name="smartshop.categories.create" title="JACTION_CATEGORIES_CREATE" description="JACTION_CATEGORIES_CREATE_COMPONENT_DESC" />		
+		<action name="smartshop.categories.edit" title="JACTION_CATEGORIES_EDIT" description="JACTION_CATEGORIES_EDIT_COMPONENT_DESC" />
+		<action name="smartshop.categories.copy" title="JACTION_CATEGORIES_COPY" description="JACTION_CATEGORIES_COPY_COMPONENT_DESC" />
+		<action name="smartshop.categories.publish" title="JACTION_CATEGORIES_PUBLISH" description="JACTION_CATEGORIES_PUBLISH_COMPONENT_DESC" />
+		<action name="smartshop.categories.ordering" title="JACTION_CATEGORIES_ORDERING" description="JACTION_CATEGORIES_ORDERING_COMPONENT_DESC" />
+		<action name="smartshop.categories.delete" title="JACTION_CATEGORIES_DELETE" description="JACTION_CATEGORIES_DELETE_COMPONENT_DESC" />		
+		
+		<action name="smartshop.products" title="JACTION_PRODUCTS" description="JACTION_PRODUCTS_COMPONENT_DESC" />		
+		<action name="smartshop.products.create" title="JACTION_PRODUCTS_CREATE" description="JACTION_PRODUCTS_CREATE_COMPONENT_DESC" />		
+		<action name="smartshop.products.edit" title="JACTION_PRODUCTS_EDIT" description="JACTION_PRODUCTS_EDIT_COMPONENT_DESC" />
+		<action name="smartshop.products.copy" title="JACTION_PRODUCTS_COPY" description="JACTION_PRODUCTS_COPY_COMPONENT_DESC" />
+		<action name="smartshop.products.publish" title="JACTION_PRODUCTS_PUBLISH" description="JACTION_PRODUCTS_PUBLISH_COMPONENT_DESC" />
+		<action name="smartshop.products.ordering" title="JACTION_PRODUCTS_ORDERING" description="JACTION_PRODUCTS_ORDERING_COMPONENT_DESC" />
+		<action name="smartshop.products.delete" title="JACTION_PRODUCTS_DELETE" description="JACTION_PRODUCTS_DELETE_COMPONENT_DESC" />
+		<action name="smartshop.products.uploadvideos" title="JACTION_PRODUCTS_UPLOADVIDEOS" description="JACTION_PRODUCTS_UPLOADVIDEOS_COMPONENT_DESC" />
+		<action name="smartshop.products.uploadfiles" title="JACTION_PRODUCTS_UPLOADFILES" description="JACTION_PRODUCTS_UPLOADFILES_COMPONENT_DESC" />
+
+		<action name="smartshop.orders" title="JACTION_ORDERS" description="JACTION_ORDERS_COMPONENT_DESC" />		
+		<action name="smartshop.orders.show" title="JACTION_ORDERS_SHOW" description="JACTION_ORDERS_SHOW_COMPONENT_DESC" />
+		<action name="smartshop.orders.create" title="JACTION_ORDERS_CREATE" description="JACTION_ORDERS_CREATE_COMPONENT_DESC" />		
+		<action name="smartshop.orders.edit" title="JACTION_ORDERS_EDIT" description="JACTION_ORDERS_EDIT_COMPONENT_DESC" />		
+		<action name="smartshop.orders.delete" title="JACTION_ORDERS_DELETE" description="JACTION_ORDERS_DELETE_COMPONENT_DESC" />
+		<action name="smartshop.orders.changestatus" title="JACTION_ORDERS_CHANGESTATUS" description="JACTION_ORDERS_CHANGESTATUS_COMPONENT_DESC" />
+		<action name="smartshop.orders.sendmail" title="JACTION_ORDERS_SENDMAIL" description="JACTION_ORDERS_SENDMAIL_COMPONENT_DESC" />
+		
+		<action name="smartshop.users"  title="JACTION_CLIENTS" description="JACTION_CLIENTS_COMPONENT_DESC" />
+		<action name="smartshop.users.edit"  title="JACTION_CLIENTS_EDIT" description="JACTION_CLIENTS_EDIT_COMPONENT_DESC"/>
+		<action name="smartshop.users.create"  title="JACTION_CLIENTS_CREATE" description="JACTION_CLIENTS_CREATE_COMPONENT_DESC"/>
+		<action name="smartshop.users.publish"  title="JACTION_CLIENTS_PUBLISH" description="JACTION_CLIENTS_PUBLISH_COMPONENT_DESC"/>
+		<action name="smartshop.users.delete"  title="JACTION_CLIENTS_REMOVE" description="JACTION_CLIENTS_REMOVE_COMPONENT_DESC"/>            		
+
+		<action name="smartshop.options"  title="JACTION_OPTIONS" description="JACTION_OPTIONS_COMPONENT_DESC"/>		
+		<action name="smartshop.options.manufacturers"  title="JACTION_OPTIONS_MANUFACTURERS" description="JACTION_OPTIONS_MANUFACTURERS_COMPONENT_DESC" />
+		<action name="smartshop.options.coupons"  title="JACTION_OPTIONS_COUPONS" description="JACTION_OPTIONS_COUPONS_COMPONENT_DESC"/>
+		<action name="smartshop.options.currencies"  title="JACTION_OPTIONS_CURRENCIES" description="JACTION_OPTIONS_CURRENCIES_COMPONENT_DESC"/>
+		<action name="smartshop.options.taxes"  title="JACTION_OPTIONS_TAXES" description="JACTION_OPTIONS_TAXES_COMPONENT_DESC"/>
+		<action name="smartshop.options.payments"  title="JACTION_OPTIONS_PAYMENTS" description="JACTION_OPTIONS_PAYMENTS_COMPONENT_DESC"/>
+		<action name="smartshop.options.shippings"  title="JACTION_OPTIONS_SHIPPINGS" description="JACTION_OPTIONS_SHIPPINGS_COMPONENT_DESC"/>
+		<action name="smartshop.options.shippingsprices"  title="JACTION_OPTIONS_SHIPPINGPRICES" description="JACTION_OPTIONS_SHIPPINGPRICES_COMPONENT_DESC"/>
+		<action name="smartshop.options.deliverytimes"  title="JACTION_OPTIONS_DELIVERYTIMES" description="JACTION_OPTIONS_DELIVERYTIMES_COMPONENT_DESC"/>
+		<action name="smartshop.options.production_calendar"  title="JACTION_OPTIONS_PRODUCTION_CALENDAR" description="JACTION_OPTIONS_PRODUCTION_CALENDAR_COMPONENT_DESC" />
+		<action name="smartshop.options.orderstatus"  title="JACTION_OPTIONS_ORDERSTATUS" description="JACTION_OPTIONS_ORDERSTATUS_COMPONENT_DESC"/>
+		<action name="smartshop.options.countries"  title="JACTION_OPTIONS_COUNTRIES" description="JACTION_OPTIONS_COUNTRIES_COMPONENT_DESC"/>
+		<action name="smartshop.options.attributes"  title="JACTION_OPTIONS_ATTRIBUTES" description="JACTION_OPTIONS_ATTRIBUTES_COMPONENT_DESC"/>
+		<action name="smartshop.options.freeattributes"  title="JACTION_OPTIONS_FREEATTRIBUTES" description="JACTION_OPTIONS_FREEATTRIBUTES_COMPONENT_DESC"/>
+		<action name="smartshop.options.units"  title="JACTION_OPTIONS_UNITS" description="JACTION_OPTIONS_UNITS_COMPONENT_DESC"/>
+		<action name="smartshop.options.usergroups"  title="JACTION_OPTIONS_USERGROUPS" description="JACTION_OPTIONS_USERGROUPS_COMPONENT_DESC"/>
+		<action name="smartshop.options.vendors"  title="JACTION_OPTIONS_VENDORS" description="JACTION_OPTIONS_VENDORS_COMPONENT_DESC"/>
+		<action name="smartshop.options.reviews"  title="JACTION_OPTIONS_REVIEWS" description="JACTION_OPTIONS_REVIEWS_COMPONENT_DESC"/>				
+		<action name="smartshop.options.productlabels"  title="JACTION_OPTIONS_PRODUCTLABELS" description="JACTION_OPTIONS_PRODUCTLABELS_COMPONENT_DESC"/>
+		<action name="smartshop.options.productfields"  title="JACTION_OPTIONS_PRODUCTFIELDS" description="JACTION_OPTIONS_PRODUCTFIELDS_COMPONENT_DESC"/>
+		<action name="smartshop.options.importexport"  title="JACTION_OPTIONS_IMPORTEXPORT" description="JACTION_OPTIONS_IMPORTEXPORT_COMPONENT_DESC"/>
+		<action name="smartshop.options.addons"  title="JACTION_OPTIONS_ADDONS" description="JACTION_OPTIONS_ADDONS_COMPONENT_DESC"/>
+		<action name="smartshop.options.logs"  title="COM_SMARTSHOP_LOGS" description="COM_SMARTSHOP_LOGS"/>
+		<action name="smartshop.options.formulacalculator"  title="JACTION_OPTIONS_FORMULACALCULATOR" description="JACTION_OPTIONS_FORMULACALCULATOR_COMPONENT_DESC"/>
+		<action name="smartshop.options.offer"  title="JACTION_OPTIONS_OFFER" description="JACTION_OPTIONS_OFFER_COMPONENT_DESC"/>				
+		<action name="smartshop.options.upload"  title="JACTION_OPTIONS_UPLOAD" description="JACTION_OPTIONS_UPLOAD_COMPONENT_DESC"/>
+		<action name="smartshop.options.states"  title="COM_SMARTSHOP_STATES" description="COM_SMARTSHOP_STATES"/>
+		<action name="smartshop.options.returnstatus"  title="COM_SMARTSHOP_RETURN_STATUS" description="COM_SMARTSHOP_RETURN_STATUS"/>
+		<action name="smartshop.options.license"  title="COM_SMARTSHOP_PANEL_LICENSE" description="COM_SMARTSHOP_PANEL_LICENSE"/>
+		
+				
+		<action name="smartshop.configuration"  title="JACTION_CONFIGURATION" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.shopfunctions"  title="JACTION_CONFIGURATION_SHOPFUNCTIONS" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.general"  title="JACTION_CONFIGURATION_GENERAL" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.product"  title="JACTION_CONFIGURATION_PRODUCT" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.checkout"  title="JACTION_CONFIGURATION_CHECKOUT" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.registration"  title="JACTION_CONFIGURATION_REGISTRATION" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.currency"  title="JACTION_CONFIGURATION_CURRENCY" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.media"  title="JACTION_CONFIGURATION_MEDIA" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.content"  title="JACTION_CONFIGURATION_CONTENT" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.shopinfo"  title="JACTION_CONFIGURATION_SHOPINFO" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.orders"  title="JACTION_CONFIGURATION_ORDERS" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.pdfpub"  title="JACTION_CONFIGURATION_PDFHUB" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+		<action name="smartshop.configuration.storage"  title="JACTION_CONFIGURATION_STORAGE" description="JACTION_CONFIGURATION_COMPONENT_DESC"/>
+	</section>	
+</access>

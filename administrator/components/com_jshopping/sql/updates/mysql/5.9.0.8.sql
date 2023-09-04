@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'equal_steps', 'TINYINT(1) NOT NULL DEFAULT 0');

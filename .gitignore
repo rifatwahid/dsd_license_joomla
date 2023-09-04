@@ -1,0 +1,12 @@
+# Ignore everything
+*
+# But not these files...
+!.gitignore
+!README.txt
+!/administrator/components/com_jshopping/**/***
+!/components/com_jshopping/**/***
+# etc...
+
+# ...even if they are in subdirectories
+!*/
+libraries/ 

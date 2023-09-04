@@ -1,0 +1,2 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_offer_and_order', 'street_nr', 'VARCHAR(16)');
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_offer_and_order', 'd_street_nr', 'VARCHAR(16)');

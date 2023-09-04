@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="CA_SMARTSHOP_USER">
+        <message>
+            <![CDATA[CA_SMARTSHOP_USER_DESCR]]>
+        </message>
+    </layout>    
+    <fields name="request">
+		<fieldset name="request">		
+			<field name="task" type="list" label="Page" description="Page">
+				<option value="">CA_SMARTSHOP_USER_MY_ACCOUNT</option>
+                <option value="register">CA_SMARTSHOP_USER_REGISTRATION</option>
+                <option value="login">CA_SMARTSHOP_USER_LOGIN</option>
+                <option value="logout">CA_SMARTSHOP_USER_LOGOUT</option>
+                <option value="orders">CA_SMARTSHOP_USER_MY_ORDERS</option>
+                <option value="addresses">COM_SMARTSHOP_ADDRESSES</option>
+                <option value="authentication">COM_SMARTSHOP_AUTHENTICATION</option>
+			</field>			
+		</fieldset>
+	</fields>
+</metadata>

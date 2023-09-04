@@ -1,0 +1,162 @@
+.user-addresses__new,
+.user-addresses .user-address {
+  overflow: hidden;
+  position: relative;
+  display: block;
+  border: 1px solid #939ba2;
+  padding-right: 5rem; }
+  
+  .user-addresses__new__default,
+  .user-addresses .user-address__default {
+    position: absolute;
+    border: 1px solid #939ba2;
+    top: -60px;
+    right: -113px;
+    padding: 80px 100px 15px 100px;
+    -webkit-transform: rotate(35deg);
+            transform: rotate(35deg); }
+    .user-addresses__new__default-text,
+    .user-addresses .user-address__default-text {
+      margin: 0;
+      font-size: 12px;
+      color: var(--shop-special-color); }
+  .user-addresses__new:hover, .user-addresses__new--default,
+  .user-addresses .user-address:hover,
+  .user-addresses .user-address--default {
+    font-weight: bold;
+    border: 1px solid #000; }
+  .user-addresses__new__address,
+  .user-addresses .user-address__address {
+    margin-bottom: 10px; }
+  .user-addresses__new__name,
+  .user-addresses .user-address__name {
+    margin-bottom: 3px; }
+  .user-addresses__new__default,
+  .user-addresses .user-address__default {
+    border: 1px solid #000; }
+
+#userAddressesPopup .userAddressesPopup__modal-dialog {
+  max-width: 80% !important; }
+  #userAddressesPopup .userAddressesPopup__modal-dialog .modal-content {
+    height: 560px; }
+  #userAddressesPopup .userAddressesPopup__modal-dialog iframe {
+    width: 100%;
+    height: 100%; }
+
+.addressPopup__pagination {
+  width: 100%; }
+  .addressPopup__pagination-links {
+    float: left; }
+  .addressPopup__pagination-limit {
+    float: right; }
+
+.addressPopup__address:active {
+  -webkit-transform: translateY(2px);
+          transform: translateY(2px); }
+
+.addressPopup__address:hover {
+  cursor: pointer; }
+  .addressPopup__address:hover > *:not(.user-address__edit) {
+    opacity: 0.6; }
+
+.addressPopup__address > .user-address__edit:hover {
+  font-weight: bold; }
+
+.addressPopup__search #search_text {
+  height: 35px; }
+
+@media (max-width: 620px) {
+  #userAddressesPopup .userAddressesPopup__modal-dialog {
+    width: auto; } }
+
+/* User addresses END */
+.myAccountCards__card:hover {
+  opacity: 0.4; }
+
+.myAccountCards__card .card {
+  min-height: 100px; }
+
+.myAccountCards__card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
+
+.shop-account .icon-dark.smarteditor-wishlist:before {
+  content: "\f0c7"; }
+
+.shop-account .icon-dark.address:before {
+  content: "\f2bb"; }
+
+.shop-account .icon-dark.authentication:before {
+  content: "\f044"; }
+
+.shop-account .icon-dark.orders:before {
+  content: "\f249"; }
+
+.shop-account .icon-dark.offers:before {
+  content: "\f15c"; }
+
+.shop-account .icon-dark.wishlist:before {
+  content: "\f004"; }
+
+.shop-account .icon-dark:before {
+  display: block;
+  width: 100%;
+  font-family: "Font Awesome 5 Free";
+  font-size: 50px; }
+
+.myAccountCards__card .card-body,
+.shop-account .icon-dark {
+  display: block;
+  text-align: center; }
+
+.addressPopup__address.mb-3,
+.addressPopup__address.my-3 {
+  margin-bottom: 1rem !important; }
+
+.addressPopup__address:hover > *:not(.user-address__edit) {
+  opacity: 0.6; }
+
+.custom-select.is-invalid,
+.form-control.is-invalid,
+.form-group .is-invalid,
+.was-validated .custom-select:invalid,
+.was-validated .form-control:invalid {
+  border-color: #dc3545; }
+
+.guest-info a {
+  color: var(--shop-gray-color);
+  border-color: var(--shop-gray-color); }
+
+.guest-info a:hover {
+  color: var(--shop-white-color);
+  background-color: var(--shop-gray-color); }
+
+.fielderror {
+  background: var(--shop-fielderror-background) !important;
+  background-color: var(--shop-fielderror-background) !important; }
+
+#birthday_btn{
+	border: none;
+	background: none;
+}
+.shop .addressPopup__search .btn,
+.shop .addressPopup__search .btn:hover{
+  border-color: var(--shop-shop-text-color);
+  color: var(--shop-shop-text-color);
+  background: none;
+}
+.shop #addressPopupAddNewAddress,
+.shop #addressPopupAddNewAddress:hover,
+.shop .addressPopup__address .btn,
+.shop .addressPopup__address .btn:hover{
+  border: none;
+  color: var(--shop-special-color);
+  background: none;
+}

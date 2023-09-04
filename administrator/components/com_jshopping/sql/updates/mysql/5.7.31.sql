@@ -1,0 +1,1 @@
+UPDATE `#__jshopping_config` SET `client_allow_cancel_order` = 1;

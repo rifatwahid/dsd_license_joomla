@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'show_shipping_costs_in_cart', 'TINYINT(1) NOT NULL DEFAULT 0');

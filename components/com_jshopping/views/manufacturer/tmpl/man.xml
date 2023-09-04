@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="CA_SMARTSHOP_MAN"></layout>
+	
+	<fields name="request" addfieldpath="/administrator/components/com_jshopping/models/fields">        
+		<fieldset name="request">
+            <field name="task" type="hidden" default="view"/>
+			<field name="manufacturer_id" type="modal_manufacturer"
+				label="CA_SMARTSHOP_MANUFACTURER"
+				required="true"
+				edit="true"
+				clear="false"
+				description="CA_SMARTSHOP_MANUFACTURER_DESCRIPTION"
+			/>			
+			<field name="category_id" type="modal_category"
+				label="CA_SMARTSHOP_CATEGORY"
+				required="false"
+				edit="false"
+				clear="false"
+				description="CA_SMARTSHOP_CATEGORY_DESCRIPTION"
+			/>
+            <field name="label_id" type="modal_label"
+				label="CA_SMARTSHOP_LABEL"
+				required="false"
+				edit="true"
+				clear="false"
+				multiple="true"
+				description="CA_SMARTSHOP_LABEL_DESCRIPTION"
+			/>
+            <field name="vendor_id" type="modal_vendor"
+				label="CA_SMARTSHOP_VENDOR"
+				required="false"
+				edit="true"
+				clear="false"
+				multiple="true"
+				description="CA_SMARTSHOP_VENDOR_DESCRIPTION"
+			/>
+            <field name="price_from" type="text" default="" label="CA_SMARTSHOP_PRICE_FROM" description="CA_SMARTSHOP_PRICE_FROM_DESCRIPTION" />
+            <field name="price_to" type="text" default="" label="CA_SMARTSHOP_PRICE_TO" description="CA_SMARTSHOP_PRICE_TO_DESCRIPTION" />
+		</fieldset>
+	</fields>
+</metadata>

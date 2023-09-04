@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'product_price_calculate', 'decimal(12,2) NOT NULL AFTER `product_mindestpreis`');

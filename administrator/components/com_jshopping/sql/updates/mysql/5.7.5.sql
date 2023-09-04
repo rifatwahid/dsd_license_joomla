@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_cart_temp', 'user_id', 'int(11) NOT NULL');

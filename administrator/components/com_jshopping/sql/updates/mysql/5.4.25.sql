@@ -1,0 +1,2 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'pdf_header_file_name', "varchar(255) DEFAULT 'header_default.jpg'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'pdf_footer_file_name', "varchar(255) DEFAULT 'footer_default.jpg'");

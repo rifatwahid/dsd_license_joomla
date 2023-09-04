@@ -1,0 +1,21 @@
+
+.order-list .js-stools-container-bar.text_right,
+.offer-list .js-stools-container-bar.text_right {
+  text-align: right;
+}
+.order-list a.list-group-item-action,
+.order-list a.list-group-item-action:hover{
+	color: var(--shop-shop-text-color);
+}
+.shop.order-list .btn,
+.shop.order-list .btn:hover{
+  border-color: var(--shop-shop-text-color);
+  color: var(--shop-shop-text-color);
+  background: none;
+}
+@media (max-width: 767px) {
+  .order-list .js-stools-container-bar.text_right,
+  .offer-list .js-stools-container-bar.text_right {
+    text-align: left;
+  }
+}

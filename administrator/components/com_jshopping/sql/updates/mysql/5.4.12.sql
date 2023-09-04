@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'preview_total_price', "DECIMAL(18,6) NOT NULL DEFAULT '0.000000'");

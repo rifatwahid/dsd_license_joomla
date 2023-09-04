@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="COM_SMARTSHOP_CONTENT"></layout>    
+    <fields name="request">
+		<fieldset name="request">
+            <field name="task" type="hidden" default="view"/>
+			<field name="page" type="list" label="COM_SMARTSHOP_CONTENT" description="COM_SMARTSHOP_CONTENT">                
+                <option value="privacy_statement">COM_SMARTSHOP_PRIVACY_POLICY</option>
+                <option value="agb">COM_SMARTSHOP_TERMS_OF_SERVICE</option>
+                <option value="return_policy">COM_SMARTSHOP_RETURN_POLICY</option>
+                <option value="order_success_page">COM_SMARTSHOP_ORDER_SUCCESS_PAGE</option>
+                <option value="shipping">COM_SMARTSHOP_SHIPPING_INFORMATION</option>
+            </field>
+		</fieldset>
+	</fields>
+</metadata>

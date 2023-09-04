@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'preview_calculated_weight', 'FLOAT DEFAULT NULL');

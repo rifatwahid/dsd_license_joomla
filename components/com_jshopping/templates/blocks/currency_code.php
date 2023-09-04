@@ -1,0 +1,1 @@
+<span class="currencycode"><?php echo $this->currency_code;?></span>

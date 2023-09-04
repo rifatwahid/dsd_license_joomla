@@ -1,0 +1,15 @@
+-- ALTER TABLE `#__jshopping_products_attr`
+-- ADD `product_price_type` int(11) NOT NULL DEFAULT '0',
+-- ADD `qtydiscount` int(1) NOT NULL DEFAULT '0',
+-- ADD `product_packing_type` INT(4) NOT NULL DEFAULT '0',
+-- ADD `factory` VARCHAR(255) NOT NULL,
+-- ADD `storage` VARCHAR(255) NOT NULL,
+-- ADD `product_tax_id` tinyint(3) NOT NULL DEFAULT '0',
+-- ADD `product_manufacturer_id` int(11) NOT NULL DEFAULT '0',
+-- ADD `delivery_times_id` int(4) NOT NULL DEFAULT '0',
+-- ADD `label_id` int(11) NOT NULL DEFAULT '0',
+-- ADD `quantity_select` varchar(255) NOT NULL,
+-- ADD `max_count_product` int(11) NOT NULL DEFAULT '0',
+-- ADD `min_count_product` int(11) NOT NULL DEFAULT '0',
+-- ADD `basic_price_unit_id` int(3) NOT NULL DEFAULT '0';
+-- ADD `equal_steps` TINYINT(1) NOT NULL;

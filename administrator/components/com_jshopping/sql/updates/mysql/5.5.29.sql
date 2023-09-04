@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'is_required_upload', 'BOOLEAN NOT NULL DEFAULT FALSE');

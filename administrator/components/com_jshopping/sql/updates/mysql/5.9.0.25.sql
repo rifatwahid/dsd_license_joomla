@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_offer_and_order_item', 'product_item_one_time_cost', 'decimal(12,2) DEFAULT "0.00"');

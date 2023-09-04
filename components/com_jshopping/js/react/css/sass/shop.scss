@@ -1,0 +1,344 @@
+/* Will be connected on all front-end pages (regardless of the template) */
+
+.display--none {
+    display: none;
+}
+
+.important-display--none {
+    display: none !important;
+}
+
+.shop-cart .angebote_erstellen {
+    display: inline-block;
+	float: right;
+    width: auto;
+}
+
+.clearfix::after {
+    display: block;
+    clear: both;
+    content: "";
+}
+
+div#qc_error,
+#product-review-alerts {
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    border-radius: 4px 4px 4px 4px;
+    color: #C09853;
+    font-size: 13px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 8px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    width: auto;
+}
+
+#product-review-alerts {
+    display: none;
+}
+
+#product-review-alerts .product-review-alerts__alert {
+    margin: 0;
+}
+
+.product_label{
+	position: absolute;
+    max-width: 65px;
+    max-height: 65px;
+	top: 2px;
+	left: 2px;
+}
+.preview_upload img{
+	max-width: 250px;
+}
+.upload_block{
+	width: 100%;
+	float: left;
+}
+.hidden{
+    display: none;
+}
+
+.rating {
+    display: inline-flex;
+    flex-wrap: wrap;
+
+    .rating__icon {
+        pointer-events: none;
+    }
+
+    .rating__input {
+        position: absolute !important;
+        left: -9999px !important;
+    }
+
+    .rating__label {
+        cursor: pointer;
+        padding: 0 0.1em;
+        font-size: 1.7rem;
+        margin-bottom: 0;
+    }
+
+    .rating__label--half {
+        display: inline-block;
+        width: 0.60em;
+        padding-right: 0;
+        margin-right: -0.6em;
+        z-index: 2;
+    }
+
+    .rating__icon--star {
+        color: orange;
+    }
+
+    .rating__icon--none {
+        color: #eee;
+    }
+
+    .rating__input--none:checked + .rating__label .rating__icon--none {
+        color: red;
+    }
+
+    &.rating--static .rating__icon--star,
+    .rating__input:checked ~ .rating__label .rating__icon--star {
+        color: #ddd;
+    }
+
+    &.rating--static .rating__label.checked .rating__icon--star {
+        color: orange;
+    }
+}
+
+.rating.rating--hover {
+    .rating__input:hover ~ .rating__label .rating__icon--star,
+    .rating__input:hover ~ .rating__label--half .rating__icon--star {
+        color: #ddd;
+    }
+
+    .rating__input--none:hover + .rating__label .rating__icon--none {
+        color: red;
+    }
+
+    &:hover .rating__label .rating__icon--star,
+    &:hover .rating__label--half .rating__icon--star {
+        color: orange;
+    }
+
+    &:hover .rating__input--none:not(:hover) + .rating__label .rating__icon--none {
+        color: #eee;
+    }
+}
+
+#productBulkPrices {
+    .productBulkPrice i {
+        font-style: normal;
+    }
+}
+
+.fielderror {
+    background: #FDC055 !important;
+    background-color: #FDC055 !important;
+}
+
+div#qc_error{
+    background-color: #FCF8E3;
+    border: 1px solid #FBEED5;
+    border-radius: 4px 4px 4px 4px;
+    color: #C09853;
+    font-size: 13px;
+    height: auto;
+    margin-bottom: 15px;
+    padding: 8px;
+    text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+    width: auto;
+}
+
+
+.width--100pr {
+    width: 100%;
+}
+
+.mw-80pr {
+    max-width: 80%;
+}
+
+/* User addresses */
+.user-addresses {
+    $hoverBorder: 1px solid #000;
+
+    &__new,
+    .user-address {
+        overflow: hidden;
+        position: relative;
+        display: block;
+        border: 1px solid #939ba2;
+        padding-right: 5rem;
+
+        &__default {
+            position: absolute;
+            border: 1px solid #939ba2;
+            top: -60px;
+            right: -113px;
+            padding: 80px 100px 15px 100px;
+            transform: rotate(35deg);
+
+            &-text {
+                margin: 0;
+                font-size: 12px;
+                color: #007bff;
+            }
+        }
+
+        &:hover,
+        &--default {
+            font-weight: bold;
+            border: $hoverBorder;
+        }
+
+        &__address {
+            margin-bottom: 10px;
+        }
+
+        &__name {
+            margin-bottom: 3px;
+        }
+
+        &__default {
+            border: 1px solid #000;
+        }
+    }
+
+}
+
+#userAddressesPopup {
+    
+    .userAddressesPopup {
+
+        &__modal-dialog {
+            max-width: 80% !important;
+
+            & .modal-content {
+                height: 560px;
+            }
+
+            iframe {
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+    
+}
+
+.addressPopup {
+    &__pagination {
+        width: 100%;
+
+        &-links {
+            float: left;
+        }
+
+        &-limit {
+            float: right;
+        }
+    }
+
+    &__address {
+
+        &:active {
+            transform: translateY(2px);
+        }
+
+        &:hover {
+            cursor: pointer;
+
+            & > *:not(.user-address__edit) {
+                opacity: .6;
+            }
+        }
+
+        & > .user-address__edit:hover {
+            font-weight: bold;
+        }
+    }
+
+    &__search {
+
+        #search_text {
+            height: 35px;
+        }
+    }
+}
+
+@media(max-width: 620px) {
+	#userAddressesPopup .userAddressesPopup__modal-dialog {
+		width: auto;
+	}
+}
+/* User addresses END */
+
+.myAccountCards {
+    &__card {
+        &:hover {
+            opacity: .4;
+        }
+
+        .card {
+            min-height: 100px;
+        }
+
+        .card-body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+   
+}
+
+.shop-account .icon-dark.smarteditor-wishlist:before {
+    content: "\f0c7";
+}
+
+.shop-account .icon-dark.address:before{
+	content: "\f2bb";
+}
+
+.shop-account .icon-dark.authentication:before{
+	content: "\f023";
+}
+
+.shop-account .icon-dark.orders:before{
+	content: "\f249";
+}
+
+.shop-account .icon-dark.offers:before{
+	content: "\f15c";	
+}
+
+.shop-account .icon-dark.wishlist:before{
+	content: "\f004";
+}
+
+.shop-account .icon-dark:before{
+    display: block;
+    width: 100%;
+	font-family: "Font Awesome 5 Free";
+	font-size: 50px;
+}
+
+.myAccountCards__card .card-body,
+.shop-account .icon-dark{
+	display: block;
+	text-align: center;
+}
+
+.jshop_prod_attributes .prod_attr_img{
+    width: 66px;
+    margin-left: 10px;
+}
+
+.jshop_prod_attributes [id^='block_attr_sel_'] {
+    display: flex;
+}

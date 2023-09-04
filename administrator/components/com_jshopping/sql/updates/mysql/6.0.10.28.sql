@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_users_addresses', 'is_default_bill', 'BOOLEAN NOT NULL DEFAULT FALSE COMMENT "default for billing"');

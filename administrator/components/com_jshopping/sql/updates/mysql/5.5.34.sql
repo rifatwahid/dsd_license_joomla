@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'show_create_account_block', "INT(1) NOT NULL DEFAULT '1'");

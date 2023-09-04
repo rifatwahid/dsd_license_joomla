@@ -1,0 +1,1 @@
+ALTER TABLE `#__users` ALTER `hide_pd5_password` SET DEFAULT 0;

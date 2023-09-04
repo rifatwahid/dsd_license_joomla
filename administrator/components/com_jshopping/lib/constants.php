@@ -1,0 +1,3 @@
+<?php 
+
+const ONE_TIME_COST_PRICE_TYPE_ID = 100500;

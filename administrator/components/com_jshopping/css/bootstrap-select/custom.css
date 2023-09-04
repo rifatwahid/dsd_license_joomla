@@ -1,0 +1,45 @@
+.hideotherselect .dropdown-menu .inner{width:220px;}
+.hideotherselect .dropdown-menu{width:190px;}
+.hideotherselect .bs-searchbox{width:190px;}
+.hideotherselect input.form-control{width:190px;}
+.hideotherselect,.hideotherselect div{width:200px;}
+.hideotherselect div#jform_request_products_list_id_chzn,
+.hideotherselect div#jform_request_category_id_chzn,
+.hideotherselect div#jform_request_vendor_id_chzn,
+.hideotherselect div#jform_request_label_id_chzn,
+.hideotherselect div#jform_request_product_id_chzn,
+.hideotherselect div#jform_request_manufacturer_id_chzn{display:none !important;}
+
+.bootstrap-select .bs-ok-default::after {
+    content: '';
+    display: block;
+    width: .5em;
+    height: 1em;
+    border-style: solid;
+    border-width: 0 .26em .26em 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.dropdown-menu li.selected a.selected span.glyphicon{
+	content: '';
+    display: block;
+    width: .5em;
+    height: 1em;
+    border-style: solid;
+    border-width: 0 .26em .26em 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -o-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.com_menus  #content #myTabContent .dropdown.bootstrap-select button:focus {
+	outline: none !important;
+}
+
+.com_menus  #content #myTabContent .dropdown.bootstrap-select ul.dropdown-menu li.disabled {
+	display: none;
+}

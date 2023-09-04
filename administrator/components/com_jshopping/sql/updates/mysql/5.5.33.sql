@@ -1,0 +1,2 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'storage_delete_offers', "INT NOT NULL DEFAULT '0'");
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'storage_delete_deliverynotes', "INT NOT NULL DEFAULT '0'");

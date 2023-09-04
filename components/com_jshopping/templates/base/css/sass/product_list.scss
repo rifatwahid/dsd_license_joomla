@@ -1,0 +1,14 @@
+.list-products .jshop_prod_attributes [id^="block_attr_sel_"] {
+  display: block;
+}
+
+.list-products .jshop_prod_attributes .input_type_radio,
+.list-products .jshop_prod_attributes .input_type_checkbox {
+  width: 100%;
+  display: block;
+}
+
+.list_product_demo.ep-downloads .btn {
+  width: 250px;
+  max-width: 100%;
+}

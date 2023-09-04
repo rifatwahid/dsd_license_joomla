@@ -1,0 +1,20 @@
+{
+  "name": "smart-shop",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "build": "webpack --config webpack.config.js",
+    "watch": "webpack --config webpack.config.js --watch"
+  },
+  "keywords": [],
+  "author": "Durst Software",
+  "license": "ISC",
+  "devDependencies": {
+    "script-loader": "^0.7.2",
+    "terser-webpack-plugin": "^2.3.3",
+    "uglify-es-webpack-plugin": "^0.10.0",
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}

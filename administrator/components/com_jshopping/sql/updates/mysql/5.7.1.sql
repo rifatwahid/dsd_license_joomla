@@ -1,0 +1,2 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'product_list_show_short_description', 'tinyint(1) NOT NULL DEFAULT 0');
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'product_show_short_description', 'tinyint(1) NOT NULL DEFAULT 0');

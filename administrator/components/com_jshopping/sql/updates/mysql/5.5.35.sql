@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'review_max_uploads', "INT(4) NOT NULL DEFAULT '0'");

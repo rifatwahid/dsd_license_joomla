@@ -1,0 +1,1 @@
+DELETE FROM `#__jshopping_import_export` WHERE `alias` = 'orderexport';

@@ -1,0 +1,2 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_users', 'credit_limit', 'decimal(18,6) NOT NULL DEFAULT 0');
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_users', 'open_amount', 'decimal(18,6) NOT NULL DEFAULT 0');

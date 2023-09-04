@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'product_packing_type', "INT(4) NOT NULL DEFAULT '0' AFTER `product_type`");

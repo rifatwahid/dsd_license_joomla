@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'publish_editor_pdf', "int(1) NOT NULL DEFAULT '0'");

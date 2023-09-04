@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_products', 'is_activated_price_per_consignment_upload_disable_quantity', 'BOOLEAN NOT NULL DEFAULT FALSE');

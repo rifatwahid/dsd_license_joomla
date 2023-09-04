@@ -1,0 +1,1 @@
+UPDATE `#__jshopping_config` SET `template`='base';

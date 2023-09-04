@@ -1,0 +1,1 @@
+CALL addFieldIfNotExistsWithUnknownPrefixTable('jshopping_config', 'show_comment_box', "TINYINT(1) NOT NULL DEFAULT '1'");
